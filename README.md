@@ -20,6 +20,12 @@ your files. Or eat your cat. And maybe burn down your house. You have been warne
 
 # Compiling
 
+## Pre-requisits
+I had to install thest packages before compiling in ubuntu-18.04
+```
+sudo apt-get -y install cmake libcap-ng-dev
+sudo apt install zlib1g-dev
+```
 If you want to compile this demo, you need at least cmake 3.5 and the libseccomp header files. Compilation can be done
 with cmake:
 
